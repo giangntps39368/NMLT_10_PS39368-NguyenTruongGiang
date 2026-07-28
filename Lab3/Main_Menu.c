@@ -30,27 +30,27 @@ int main()
             {
                 printf("Diem so nhap vao khong hop le!\n");
             }
-            else if (diem <= 9)
+            else if (diem >= 9)
             {
                 printf("Hoc luc: Xuat sac\n");
             }
-            else if (diem <= 8)
+            else if (diem >= 8)
             {
                 printf("Hoc luc: Gioi\n");
             }
-            else if (diem <= 6.5)
+            else if (diem >= 6.5)
             {
                 printf("Hoc luc: Kha\n");
             }
-            else if (diem <= 6)
+            else if (diem >= 5)
             {
                 printf("Hoc luc: Trung binh\n");
             }
-            else if (diem <= 3.5)
+            else if (diem >= 3.5)
             {
                 printf("Hoc luc: Yeu\n");
             }
-            else if (diem >= 3)
+            else
             {
                 printf("Hoc luc: Kem\n");
             }
@@ -123,7 +123,7 @@ int main()
             int soDien;
             float tien;
 
-            printf("\n=== CHUC NANG TINH TIEN DIEN ===\n");
+            printf("\n CHUC NANG TINH TIEN DIEN \n");
             printf("Nhap so kWh dien tieu thu: ");
             scanf("%d", &soDien);
 
