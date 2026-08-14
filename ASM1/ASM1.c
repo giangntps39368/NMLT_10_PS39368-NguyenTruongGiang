@@ -25,57 +25,61 @@ int main()
 
         switch (chon)
         {
-            case 1:
-            {
-                printf("Ban da chon chuong trinh kiem tra so nguyen\n");
-                break;
-            }
+        case 1:
+        {
+            printf("Ban da chon chuong trinh kiem tra so nguyen\n");
+            break;
+        }
         case 2:
-            {
+        {
             printf("Ban da chon chuong trinh tim uoc chung va boi chung cua 2 so\n");
             break;
-             }
+        }
         case 3:
-            {
+        {
             printf("Ban da chon chuong trinh tinh tien cho quan karaoke\n");
             break;
-            }
+        }
         case 4:
-            {
+        {
             printf("Ban da chon chuong trinh tinh tien dien\n");
             break;
-            }
+        }
         case 5:
-            {
+        {
             printf("Ban da chon chuong trinh doi tien\n");
             break;
-            }
+        }
         case 6:
-            {
+        {
             printf("Ban da chon chuong trinh tinh lai suat ngan hang vay tra gop\n");
             break;
-            }
+        }
         case 7:
-            {
+        {
             printf("Ban da chon chuong trinh vay tien mua xe\n");
             break;
-            }
+        }
         case 8:
-            {
+        {
             printf("Ban da chon chuong trinh sap xep thong tin sinh vien\n");
             break;
-            }
+        }
         case 9:
-            {
+        {
             printf("Ban da chon chuong trinh game FPOLY-LOTT\n");
             break;
-            }
+        }
         case 10:
-            {
+        {
             printf("Ban da chon chuong trinh tinh toan phan so\n");
             break;
-            }
         }
-    }while (chon != 11);
+        case 11:
+        {
+            printf("Ban da chon thoat chuong trinh\n");
+        }
+        }
+    } while (chon != 11);
     return 1;
 }

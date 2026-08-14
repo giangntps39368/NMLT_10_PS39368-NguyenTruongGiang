@@ -17,7 +17,6 @@ int main()
         scanf("%d", &chon);
 
         switch (chon)
-          switch (chon)
         {
         case 1:
             int min;
