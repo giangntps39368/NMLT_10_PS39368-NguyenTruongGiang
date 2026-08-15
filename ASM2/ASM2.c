@@ -5,7 +5,6 @@
 int main()
 {
     int chon;
-
     do
     {
         printf("\n MENU CHUC NANG THONG TIN ASM \n");
